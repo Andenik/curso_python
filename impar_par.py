@@ -6,18 +6,11 @@ inteiro, informe que não é um número inteiro.
 
 numero = input('Digite um numero: ')
 
-print(numero)
-
 numero = int(numero)
 
-if numero is int:
-    print('Voce digitou um numero nao inteiro')
-
-numero = numero / 2
-
 print(numero)
 
-if numero is int():
+if numero % 2 == 0:
     print('Numero par')
-    if numero is float():
-        print('Numero impar')
+else:
+    print('Numero impar')

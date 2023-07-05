@@ -7,10 +7,6 @@ podem ser divididos por 100/400 '''
 import sys
 
 ano = input('Digete o ano: ')
-# anoint = int(ano)
-# anobi = ano % 400 or ano % 100
-# anobi2 = anoint % 100
-# anobi3 = ano % 2
 
 if ano.isdigit():
     ano = int(ano)
@@ -19,7 +15,6 @@ else:
     sys.exit()
 
 anobi = ano % 400 or ano % 100
-#anobi2 = anoint % 100
 anobi3 = ano % 4
 
 if anobi == 0:
