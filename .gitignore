@@ -1,5 +1,7 @@
 venv
 
+venv/
+
 exercicio1.py
 
 exercicio2.py
